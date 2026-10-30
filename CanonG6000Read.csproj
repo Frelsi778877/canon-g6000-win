@@ -11,4 +11,9 @@
     <NoWarn>CA1416</NoWarn>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- The separate G3100 adapter has its own executable entry point. -->
+    <Compile Remove="adapters/**/*.cs" />
+  </ItemGroup>
+
 </Project>
