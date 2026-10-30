@@ -4,6 +4,11 @@ Validation date: **2026-10-29**. Hardware: one Canon PIXMA G3100, reported as
 G3000 by the service status, firmware **V3.010**. The owner confirmed prior physical
 absorber maintenance and explicitly authorized the experimental repair.
 
+The live experiment used the .NET 9.0.6 runtime. The published project targets
+.NET 8; both that build and its offline self-tests were separately verified using
+the installed .NET 8.0.17 runtime. No second physical reset was performed to test
+a different runtime.
+
 ## Observed result
 
 | Check | Observation |
