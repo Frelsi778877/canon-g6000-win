@@ -26,6 +26,14 @@ printers (e.g. **G6020 / G6040 / G6050**) — the counter behind the
 If you test the reset on your own G6000‑series printer, please open an issue with
 the result (model, firmware, whether `D=` dropped after a clean power‑cycle).
 
+## Validated PIXMA G3100 adapter
+
+A separate [Windows G3100 adapter](adapters/windows-g3100/README.md) has been tested
+on one physically-serviced **PIXMA G3100, firmware V3.010**. Its counter changed
+from `D=063.6` to `D=000.0` after a clean power-button cycle, and the owner
+confirmed successful printing. See the [sanitized hardware validation report](docs/g3100-validation.md)
+for the evidence, scope and limitations.
+
 ## Requirements
 
 - Windows, **.NET SDK 8.0+**

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>CanonG3100</AssemblyName>
+    <RootNamespace>CanonG3100</RootNamespace>
+    <NoWarn>CA1416</NoWarn>
+  </PropertyGroup>
+</Project>
